@@ -154,7 +154,7 @@ nav .navbar .logo a::after{
     display: block;
     overflow: hidden;
     cursor: pointer;
-    width: 35%;
+    width: 40%;
     justify-content: flex-end;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
