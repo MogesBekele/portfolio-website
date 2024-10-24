@@ -187,7 +187,7 @@ nav .navbar .logo a::after{
    padding: 10px;
    color: var(--text-black-700);
    border-bottom: 1px solid var(--skin-color);
-   font-family: 'Clicker script', cursive;
+   font-family: italic;
    color: var(--skin-color);
    font-size: 22px;
   }
