@@ -984,7 +984,8 @@ background-color: var(--skin-color);
 .about .about-content .timeline .timeline-item{
   position: relative;
   padding-left: 25px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  margin: 0;
 
 }
   .service .service-item{
@@ -994,7 +995,7 @@ background-color: var(--skin-color);
 
   }
   .portfolio .portfolio-item{
-    flex: 0 0 90%;
+    flex: 0 0 100%;
     max-width: 100%;
     margin-bottom: 30px;
   }
