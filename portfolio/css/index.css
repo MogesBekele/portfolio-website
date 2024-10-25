@@ -655,12 +655,10 @@ background-color: var(--skin-color);
 .about .about-content .experience{
   flex: 0 0 50%;
   max-width: 50%;
-  margin-top: 30px;
-
 }
 .about .about-content h3.title{
   font-size: 24px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-weight: 700;
   color: var(--text-black-900);
 }
@@ -668,6 +666,7 @@ background-color: var(--skin-color);
 .about .about-content .timeline-box{
   flex: 0 0 100%;
   max-width: 100%;
+  padding-right: 20px;
 }
 .about .about-content .timeline{
   background-color: var(--bg-black-100);
@@ -682,7 +681,7 @@ background-color: var(--skin-color);
 .about .about-content .timeline .timeline-item{
   position: relative;
   padding-left: 37px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 
 }
 
@@ -742,9 +741,7 @@ background-color: var(--skin-color);
   padding-bottom: 40px;
  
 }
-.service{
-  padding-top: 70px;
-}
+
 .service .service-item{
   margin-bottom: 30px;
   flex: 0 0 50%;
@@ -1001,12 +998,41 @@ background-color: var(--skin-color);
   }
   .about .about-content .education,
   .about .about-content .experience{
-    padding-right: 40px;
+    padding-right: 20px;
     flex: 0 0 100%;
     max-width: 100%;
-    margin-bottom: 100px;
-    
+    margin-bottom: 40px;    
   }
+.about .about-content h3.title{
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: var(--text-black-900);
+}
+
+.about .about-content .timeline-box{
+  flex: 0 0 90%;
+  max-width: 100%;
+  
+  
+}
+.about .about-content .timeline{
+  background-color: var(--bg-black-100);
+  padding: 10px;
+  border: 1px solid var(--bg-black-50);
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+
+}
+
+.about .about-content .timeline .timeline-item{
+  position: relative;
+  padding-left: 37px;
+  padding-bottom: 30px;
+
+}
   .service .service-item{
     flex: 0 0 90%;
     max-width: 100%;
@@ -1053,7 +1079,7 @@ background-color: var(--skin-color);
     padding-top: 20px;
   }
   .service{
-    padding-top: 100px;
+    padding-top: 80px;
   }
   .about .about-content .skills{
     flex: 0 0 100%;
