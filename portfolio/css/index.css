@@ -467,8 +467,8 @@ h3.hello span{
   font-size: 20px;
   color: var(--text-black-700);
   font-family: italic;
-  text-align: justify;
-  padding-right: 20px;
+  text-align: left;
+  
 
 }
 .home .home-img{
@@ -541,8 +541,8 @@ h3.hello span{
   line-height: 25px;
   color: var(--text-black-700);
   margin-bottom: 10px;
-  text-align: justify;
-  padding-right: 30px;
+  text-align: left;
+  
 
 
 }
@@ -689,15 +689,16 @@ background-color: var(--skin-color);
   margin-bottom: 13px;
   text-transform: capitalize;
   color: var(--text-black-900);
+  text-align: left;
   
 
 }
 .about .about-content .timeline .timeline-text{
   font-size: 16px;
   line-height: 25px;
-  text-align: justify;
+  text-align: left;
   color: var(--text-black-700);
-  font-family: serif;
+  font-family: sans-serif;
 }
 
 
@@ -1023,9 +1024,9 @@ background-color: var(--skin-color);
   .about .about-content .timeline .timeline-text{
     font-size: 16px;
     line-height: 20px;
-    text-align: justify;
+    text-align: left;
     color: var(--text-black-700);
-    font-family: serif;
+    font-family: sans-serif;
   }
   .contact .contact-form .col-6{
     flex: 0 0 90%;
