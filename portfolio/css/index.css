@@ -749,8 +749,6 @@ background-color: var(--skin-color);
   margin-bottom: 30px;
   flex: 0 0 50%;
   max-width: 50%;
-  
- 
 }
 .section .service-item .service-item-inner{
   background-color: var(--bg-black-100);
@@ -800,6 +798,20 @@ background-color: var(--skin-color);
   font-family: italic;
 
 }
+.download-btn{
+  width: 100%;
+ margin: auto;
+ text-align: center;
+ margin-top: 60px;
+ }
+ .download{
+ background-color: var(--skin-color);
+ padding: 12px 22px;
+ border: 1px solid var(--skin-color);
+ border-radius: 22px;
+ color: white;
+ 
+ }
 
 /*portfolio*/
 .portfolio .container{
@@ -808,7 +820,7 @@ background-color: var(--skin-color);
 .portfolio .portfolio-heading{
   flex: 0 0 100%;
   max-width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .portfolio .portfolio-heading h2{
   color: var(--text-black-900);
@@ -823,7 +835,7 @@ background-color: var(--skin-color);
 }
 .portfolio .portfolio-item p{
   color: var(--skin-color);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-family: italic;
 }
 
@@ -980,11 +992,7 @@ background-color: var(--skin-color);
 }
 @media (max-width:767px){
 
-  .about .about-content .personal-info,
-  .service .service-item,
-  .contact .contact-info-item,
-  .portfolio .portfolio-item
-
+  .about .about-content .personal-info
    {
     flex: 0 0 90%;
     max-width: 100%;
@@ -999,6 +1007,29 @@ background-color: var(--skin-color);
     margin-bottom: 100px;
     
   }
+  .service .service-item{
+    flex: 0 0 90%;
+    max-width: 100%;
+    margin-bottom: 40px;
+
+  }
+  .portfolio .portfolio-item{
+    flex: 0 0 90%;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .contact .contact-info-item{
+    flex: 0 0 90%;
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+  .download-btn{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+   }
   .about .about-content .timeline-box{
     flex: 0 0 100%;
     max-width: 100%;
