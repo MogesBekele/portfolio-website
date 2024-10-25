@@ -765,7 +765,9 @@ background-color: var(--skin-color);
   width: 100%;
  margin: auto;
  text-align: center;
- margin-top: 60px;
+ margin-top: 50px;
+ padding-bottom: 50px;
+ 
  }
  .download{
  background-color: var(--skin-color);
@@ -999,6 +1001,7 @@ background-color: var(--skin-color);
     margin-bottom: 40px;
 
   }
+  
   .portfolio .portfolio-item{
     flex: 0 0 100%;
     max-width: 100%;
@@ -1013,8 +1016,8 @@ background-color: var(--skin-color);
     width: 100%;
     margin: auto;
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 0px;
+    
+  
    }
   .about .about-content .timeline-box{
     flex: 0 0 100%;
@@ -1039,7 +1042,7 @@ background-color: var(--skin-color);
     margin-bottom: 10px;
     
   }
-  .service, .contact, .portfolio, .about{
+   .contact, .portfolio, .about{
     padding-top: 40px;
   } 
   .home{
