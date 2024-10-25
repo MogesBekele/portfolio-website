@@ -1023,8 +1023,8 @@ background-color: var(--skin-color);
   }
   .about .about-content .timeline .timeline-text{
     font-size: 16px;
-    line-height: 20px;
-    text-align: left;
+    line-height: 25px;
+    text-align: center;
     color: var(--text-black-700);
     font-family: sans-serif;
   }
