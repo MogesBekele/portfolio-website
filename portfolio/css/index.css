@@ -542,7 +542,7 @@ h3.hello span{
   color: var(--text-black-700);
   margin-bottom: 10px;
   text-align: center;
-  
+  padding-right: 20px;
 
 
 }
@@ -1047,6 +1047,12 @@ background-color: var(--skin-color);
   }
   .service{
     padding-top: 80px;
+  }
+  .about .about-content .about-text p{
+ 
+    padding-right: 10px;
+  
+  
   }
   .about .about-content .skills{
     flex: 0 0 100%;
