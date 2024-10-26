@@ -154,7 +154,7 @@ nav .navbar .logo a::after{
     display: block;
     overflow: hidden;
     cursor: pointer;
-    width: 55%;
+    width: 50%;
     justify-content: flex-end;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -164,7 +164,7 @@ nav .navbar .logo a::after{
     
   }
   nav ul li{
-    padding: 30px 10px ;
+    padding: 35px 10px ;
     color: var(--text-black-700);
     padding-top: 30px;
     
