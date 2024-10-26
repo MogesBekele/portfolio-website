@@ -158,13 +158,13 @@ nav .navbar .logo a::after{
     justify-content: flex-end;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    height: 80vh;
+    height: 90vh;
  
     
     
   }
   nav ul li{
-    padding: 35px 10px ;
+    padding: 37px 10px ;
     color: var(--text-black-700);
     padding-top: 30px;
     
@@ -488,9 +488,9 @@ h3.hello span{
   width: 300px;
   margin: auto;
   border-radius: 5px;
-  animation: trans linear;
+  animation: appear linear;
   animation-timeline: view();
-  animation-range: entry 30%;
+  animation-range: entry 0%;
 
 }
 /*
