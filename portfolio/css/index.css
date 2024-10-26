@@ -154,16 +154,19 @@ nav .navbar .logo a::after{
     display: block;
     overflow: hidden;
     cursor: pointer;
-    width: 50%;
+    width: 30%;
     justify-content: flex-end;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    height: 90vh;
+ 
     
     
   }
   nav ul li{
     padding: 25px;
     color: var(--text-black-700);
+    padding-top: 30px;
     
   }
   nav .insert i{
@@ -178,18 +181,19 @@ nav .navbar .logo a::after{
     font-size: 16px;
     font-weight: 600;
     display: block;
-   
-  
-  
   
   }
   nav ul li a{
    padding: 10px;
-   color: var(--text-black-700);
    border-bottom: 1px solid var(--skin-color);
    font-family: italic;
    color: var(--skin-color);
    font-size: 22px;
+   
+  }
+  nav ul li a i{
+    padding-right: 10px;
+  
   }
   #menuList{
     transition: all 0.8s;
