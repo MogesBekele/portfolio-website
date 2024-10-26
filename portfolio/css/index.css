@@ -154,11 +154,11 @@ nav .navbar .logo a::after{
     display: block;
     overflow: hidden;
     cursor: pointer;
-    width: 50%;
+    width: 55%;
     justify-content: flex-end;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    height: 90vh;
+    height: 80vh;
  
     
     
