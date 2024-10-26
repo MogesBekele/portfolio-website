@@ -834,7 +834,7 @@ background-color: var(--skin-color);
 
 }
 .portfolio .portfolio-item p{
-  color: var(--skin-color);
+  color: var(--text-black-700);
   margin-bottom: 10px;
   font-family: italic;
 }
@@ -844,6 +844,9 @@ background-color: var(--skin-color);
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
+  animation: trans linear;
+  animation-timeline: view();
+  animation-range: entry 40%;
 
 }
 
