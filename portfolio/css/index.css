@@ -755,16 +755,7 @@ background-color: var(--skin-color);
   }
 
 }
-@keyframes port{
-  from{
-    opacity: 0;
-    transform: translateX(400px);
-  }
-  to{
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
+
 .section .service-item .service-item-inner:hover{
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
@@ -853,10 +844,7 @@ background-color: var(--skin-color);
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
-  animation: port linear;
-  animation-timeline: view();
-  animation-range: entry 30%;
-  animation-duration: 5s;
+
 }
 
 .portfolio .portfolio-item-inner .portfolio-img img{
