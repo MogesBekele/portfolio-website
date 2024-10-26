@@ -444,7 +444,7 @@ display: block;
 }
 h3.hello{
  font-size: 20px;
-  margin: 15px 0;
+  margin-bottom: 0px;
   font-family: italic;
 
 }
@@ -453,7 +453,7 @@ h3.hello span{
   font-family: 'Clicker script', cursive;
   font-size: 30px;
   color: var(--skin-color);
-  padding-right: 5px;
+  padding-right: 10px;
 }
 .h3.my-profession{
   font-size: 30px;
@@ -755,7 +755,16 @@ background-color: var(--skin-color);
   }
 
 }
-
+@keyframes port{
+  from{
+    opacity: 0;
+    clip-path: inset(0% 80% 0);
+  }
+  to{
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+}
 .section .service-item .service-item-inner:hover{
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
@@ -844,9 +853,10 @@ background-color: var(--skin-color);
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
-  animation: trans linear;
+  animation: port linear;
   animation-timeline: view();
-  animation-range: entry 40%;
+  animation-range: entry 0%;
+ 
 
 }
 
