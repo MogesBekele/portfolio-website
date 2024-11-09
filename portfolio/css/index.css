@@ -156,8 +156,7 @@ nav .navbar .logo a::after{
     cursor: pointer;
     width: 50%;
     justify-content: flex-end;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+   
     height: 90vh;
  
     
